@@ -16,4 +16,14 @@ def main():
         weight = round(random.uniform(0, 100), 4)
         print(f"{vertex1} {vertex2} {weight}")
 
+
+def verticesInput():
+    while True:
+        try:
+            n = int(input("Enter an integer: "))
+            return n
+        except ValueError:
+            print("Invalid input. Please enter an integer.")
+
+            
 main()
