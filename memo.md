@@ -15,10 +15,11 @@ The names of the vertices and weight are separated by
 one or more white spaces. The vertices will have no more than 6 
 characters, and the decimal for the weight no more than than 4 digits.
 Edges will not be repeated.
----
+
 The program takes a max of 2 arguments from the command line
 1. --vertices N, which will generate N vertices, N must be an integer
 2. --connected, when entered the graph will be connected
+
 *Note that both of these are optional, the program will generate a random
 number of vertices without argument 1 and the graph will randomly be
 connected or unconnected without argument 2.*
