@@ -3,7 +3,8 @@ import string
 import argparse
 
 def generate_vertex_name():
-    return ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(6))
+    length = random.randint(1,6)
+    return ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(length))
 
 def main():
     parser = argparse.ArgumentParser(description="Generate a weighted graph")
@@ -42,7 +43,6 @@ def connect(num_vertices, is_connected, nodes, edges):
 
 def unconnected(num_vertices, nodes, edges):
     inOrderNodes = []
-    print('unconnected')
     for i in range(len(nodes)):
         inOrderNodes.append(nodes[i])
 

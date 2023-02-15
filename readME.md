@@ -49,17 +49,13 @@ This program takes 2 arguments the starting vertice and the ending vertice:
 $ python genPath.py q1 q4
 ```
 If a start and end are not provided no path can be provided.
-Upon entering the start and end vertices the user will then enter the vertices and weights in the format
+Upon entering the start and end vertices the user will then enter the vertices and weights in the format. The vertices and weight are all separated by a space.
 ```
 vertice1 vertice2 weight
 ```
-vertices can be any combination of numbers and letters, and weights can be any number excluding scientific notation.
+Vertices can be any combination of numbers and letters, and weights can be any number excluding scientific notation.
 To stop input of a graph the user enters ctrl + D and then enter.
 The program will then generate a path if possible.
-
-### License ###
-
-[GNU Public License](https://www.gnu.org/licenses/gpt-3.0.html)
 
 ### Who do I talk to? ###
 
