@@ -23,7 +23,7 @@ The program takes a max of 2 arguments from the command line
 *Note that both of these are optional, the program will generate a random
 number of vertices without argument 1 and the graph will randomly be
 connected or unconnected without argument 2.*
----
+
 The algorithm used to generate the connected graph runs in time complexity
 O(n) since it uses a for loop to go through all the nodes in the graph.
 
